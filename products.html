@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PawMart | Products</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-success" href="index.html">
+                <i class="bi bi-basket2-fill"></i> PawMart
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="mainNavbar">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="products.html">Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold text-success">Our Pet Products</h2>
+                <p class="text-muted">
+                    Shop food, medicine, vitamins, grooming products, and accessories for your pets.
+                </p>
+            </div>
+
+            <div class="row g-4">
+                <!-- Dog Food -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card product-card h-100">
+                        <img src="images/dogfood.jpg" class="card-img-top product-image" alt="Dog food">
+                        <div class="card-body">
+                            <span class="badge bg-success mb-2">Dog Food</span>
+                            <h5>HealthyDog Adult Dry Food</h5>
+                            <p>
+                                A complete meal for adult dogs made with chicken and rice.
+                                It supports muscle growth, digestion, and healthy skin.
+                            </p>
+                            <p class="product-price">₱850.00</p>
+                            <button class="btn btn-success w-100 add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cat Food -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card product-card h-100">
+                        <img src="images/catfood.jpg" class="card-img-top product-image" alt="Cat food">
+                        <div class="card-body">
+                            <span class="badge bg-success mb-2">Cat Food</span>
+                            <h5>PurrMeal Cat Food</h5>
+                            <p>
+                                A tasty and nutritious cat food with chicken flavor.
+                                Suitable for adult cats and supports healthy eyes and bones.
+                            </p>
+                            <p class="product-price">₱650.00</p>
+                            <button class="btn btn-success w-100 add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dewormer -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card product-card h-100">
+                        <img src="images/medicine.jpg" class="card-img-top product-image" alt="Dewormer">
+                        <div class="card-body">
+                            <span class="badge bg-success mb-2">Pet Medicine</span>
+                            <h5>DewormAway Tablet</h5>
+                            <p>
+                                Deworming tablet for dogs and cats. Helps remove roundworms,
+                                hookworms, and other common intestinal parasites.
+                            </p>
+                            <p class="product-price">₱180.00</p>
+                            <button class="btn btn-success w-100 add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Vitamins -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card product-card h-100">
+                        <img src="images/vitamins.jpg" class="card-img-top product-image" alt="Pet vitamins">
+                        <div class="card-body">
+                            <span class="badge bg-success mb-2">Vitamins</span>
+                            <h5>PetGrow Multivitamins</h5>
+                            <p>
+                                Daily multivitamin syrup for dogs and cats.
+                                Helps improve appetite, energy, and overall immunity.
+                            </p>
+                            <p class="product-price">₱250.00</p>
+                            <button class="btn btn-success w-100 add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Shampoo -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card product-card h-100">
+                        <img src="images/shampoo.jpg" class="card-img-top product-image" alt="Pet shampoo">
+                        <div class="card-body">
+                            <span class="badge bg-success mb-2">Grooming</span>
+                            <h5>FreshPet Shampoo</h5>
+                            <p>
+                                Gentle shampoo for dogs and cats. Removes dirt and odor
+                                while keeping your pet’s fur soft and clean.
+                            </p>
+                            <p class="product-price">₱220.00</p>
+                            <button class="btn btn-success w-100 add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Toy -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card product-card h-100">
+                        <img src="images/toys.jpg" class="card-img-top product-image" alt="Pet toy">
+                        <div class="card-body">
+                            <span class="badge bg-success mb-2">Accessories</span>
+                            <h5>FunBall Chew Toy</h5>
+                            <p>
+                                Durable rubber chew toy for dogs. Helps reduce boredom
+                                and supports healthy teeth and gums.
+                            </p>
+                            <p class="product-price">₱150.00</p>
+                            <button class="btn btn-success w-100 add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-success text-white py-4">
+        <div class="container text-center">
+            <p class="mb-0">© 2026 PawMart. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
